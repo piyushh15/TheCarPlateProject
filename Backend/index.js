@@ -12,7 +12,6 @@ const bcrypt=require('bcryptjs')
 const jwt=require('jsonwebtoken')
 const jwtsecret="mynameispiyushnicetomeetyou";
 const User = require('./models/User');
-const fetch=require("node-fetch")
 const { body,validationResult} = require('express-validator');
 
 
